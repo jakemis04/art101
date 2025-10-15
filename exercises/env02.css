@@ -1,0 +1,17 @@
+
+body {
+  background-image: url("Images/pokemon_background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navigation {
+
+display:flex;
+gap: 300px;
+
+}
+
+
+#introduction h1{background-color: #80ced6;}
+#introduction h2{background-color: purple;}

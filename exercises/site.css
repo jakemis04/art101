@@ -1,0 +1,11 @@
+.index-css{
+color: red; 
+font-family:courier new;
+background:yellow;
+}
+#introduction h2{font-style: italic;}
+#introduction p{font-size: 120%;}
+.navigation{
+display:flex;
+gap:100px;
+}
