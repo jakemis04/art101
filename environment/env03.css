@@ -1,0 +1,35 @@
+
+body {
+  background-image: url("pokemon_background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navigation {
+
+display:flex;
+gap: 300px;
+
+}
+
+
+#introduction h1{background-color: #80ced6;}
+#introduction h2{background-color: purple;}
+
+#output {
+  flex:1;
+  background-color: green;
+  Width: 150px;
+  font-size:large;
+}
+#output2 {
+  flex:1;
+  background-color: green;
+  Width: 150px;
+  font-size:large;
+}
+.flex-container{
+  display:flex;
+  width:600px;
+  gap: 850px;
+}
