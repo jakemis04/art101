@@ -7,7 +7,6 @@
     margin: 20px;
 }
 
-.less {}
 
 .more {
     height: auto;
@@ -17,4 +16,16 @@
 .nice-block span {
     cursor: pointer;
     color: darkviolet;
+}
+
+.popup-tip {
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    display: none;
+    z-index: 500;
 }
