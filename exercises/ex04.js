@@ -1,18 +1,21 @@
 
-let totalnumber = 0;
+let totalNumber = 0;
 
 
 
 //add a button titled click me
 
-$("#needy-button").click(function (){}
+$("#needy-button").click(function (){
+
+totalNumber = totalNumber + 1;
+
+let sentence ="I was clicked";
+let totalNumbers=sentence+totalNumber;
 
 
-totalnumber= totalnumber + 1;
+$("#needy-button").html(totalNumbers);
 
-$("needy-button").html(totalnumber);
-
-})
+});
 
 
 //when it is clicked
